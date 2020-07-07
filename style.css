@@ -121,7 +121,6 @@ p {
     cursor: pointer;
 }
 
-
 .videowrapper{
     position: relative;
     padding-bottom: 30%;
@@ -137,6 +136,29 @@ p {
     bottom: 0px;
     height: 100%;
     width: 100%;
-
 }
 
+@media screen and (max-width:1000px){
+    .container-imagenes {
+        width: 95%;
+    }
+}
+@media screen and (max-width:700px){
+    .container-imagenes {
+        width: 95%;
+    }
+    .container-imagenes{
+        width: 48%;
+    }
+
+@media screen and (max-width:450px){
+    h1{
+        font-size: 22px;
+    }
+    .container-imagenes {
+    width: 80px;%;
+        }
+ .container-imagenes{
+    width: 48%;
+        }
+}
